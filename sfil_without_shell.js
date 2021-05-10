@@ -76,3 +76,12 @@ Array.randomArray = function (start = 0, end = 100, len = 10) {
     }
     return arr;
 }
+// returns the first element of the array
+Array.prototype.first = function (arr = null) {
+    return this[0];
+}
+
+// returns the last element of the array
+Array.prototype.last = function () {
+    return this[this.length-1];
+}
