@@ -39,7 +39,7 @@
     };
 
     // Checks if a given value is a array type
-    function isArray(val) {
+    window.isArray = function(val) {
         return Array.prototype === val.__proto__;
     }
 
